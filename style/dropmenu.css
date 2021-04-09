@@ -1,0 +1,30 @@
+nav .right a:hover, .dropdown:hover{
+    font-family: sans-serif;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.441);
+    min-width: 60px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    left: 0;
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

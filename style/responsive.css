@@ -1,0 +1,16 @@
+@media screen and (max-widht: 700px) {
+    main .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao-info {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-widht: 1000px) {
+    .descrição {
+        width: 50%;
+    }
+}
